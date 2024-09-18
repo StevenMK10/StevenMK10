@@ -1,0 +1,114 @@
+* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(190, 190, 95);
+    text-align: center;
+}
+
+/* Header styling */
+header {
+    width: auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+/* Navigation menu styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content container */
+.container {
+    padding: 50px;
+}
+
+/* Heading styles */
+.heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2E8B57;
+    margin-bottom: 20px;
+}
+
+/* Subheading styles */
+.subheading {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color:#2E8B57;
+}
+
+/* Button container to center buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Button styles */
+.btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+/* Sign Up button styling */
+.btn-signup {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Decline button styling */
+.btn-decline {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Button hover effect */
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Section styling */
+.section {
+    padding: 50px;
+    background-color: #f0f8ff;
+    margin: 40px 0;
+}
+
+.section h2 {
+    font-size: 28px;
+    color: #2E8B57;
+    margin-bottom: 20px;
+}
+
+.section p, .section ul {
+    font-size: 18px;
+    color: #556B2F;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
